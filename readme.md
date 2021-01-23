@@ -11,10 +11,10 @@ I took the sequence of a very early version of COVID, [HCoV-HKU1](https://www.nc
 `Total Length 29903, Needle Length: 4069, TotalOut: 25834
 Best Match: 21309 with value of 0.34209879577291713`
 
- ![matchAllign](img\matchAllign.png)
+ ![matchAllign](img/matchAllign.png)
 
 As we can see, at base pair 21310, of the current COVID strain, there is a naïve 34% similarity between the old protein and that subsection of the current COVID genome. Checking this with the [official NIH’s spike protein base](https://www.ncbi.nlm.nih.gov/nuccore/MN988713.1) pair range: 21563 to 25384. The estimate is off by 253 base pairs. The actual similarity is shown below:
 
-![diff](img\diff.png)
+![diff](img/diff.png)
 
 So we can see, that from around base pairs 3000 to 3750 are pretty much in common with the current Covid spike protein (note this is the approximately aligned version).
