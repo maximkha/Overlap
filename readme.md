@@ -1,6 +1,6 @@
 # Overlap
 
-Overlap is a simple python program made to do pseudo sequence alignment. Pseudo sequence alignment means that it is a naïve verbatim search algorithm. This allows for quick rough alignment, the results are very close to real alignment and the process takes a fraction of a second. The only caveat is that the closer the two genomes are, the more accurate the alignment will be.
+Overlap is a simple python program made to do pseudo sequence alignment. Pseudo sequence alignment means that it is a naïve verbatim search algorithm. This allows for quick rough alignment, the results are very close to real alignment and the process takes a fraction of a second. Not only is the method inherintley quicker, it also is run on the GPU for maximum performance. The only caveat is that the closer the two genomes are, the more accurate the alignment will be.
 
 #### Experiment
 
